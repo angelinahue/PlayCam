@@ -27,13 +27,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func ClickAction(_ sender: UIButton) {
         coolButtonForClicking.setTitle("Great Job!", for:UIControlState.normal)
-        //myImageView.alpha = myImageView.alpha/2.0
         myImageView.alpha = 0.5
     }
     
     @IBAction func ClickActionOne(_ sender: UIButton) {
         //coolButtonForClicking.setTitle("Great Job!", for:UIControlState.normal)
-        //myImageView.alpha = myImageView.alpha/2.0
         myImageView.alpha = 0.1
     }
 
